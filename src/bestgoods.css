@@ -1,0 +1,42 @@
+
+
+.categoryzoomout:hover{
+    zoom:80%;
+}
+
+.visible{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+.headerunderline{
+    animation: 1s line;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+@keyframes line {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        visibility: visible;
+        opacity: 0.25;
+    }
+    50% {
+        visibility: visible;
+        opacity: 0.50;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
